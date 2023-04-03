@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.mainHeader{
+  margin: 20px auto;
+  background: #eee;
+  height: 200px;
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.mainNav {
+  width: 50%;
+}
+
+.maiNavList {
+  list-style:none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.mainNav a {
+  text-decoration:none;
+  color: #000;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.mainNav a:hover {
+  color: #66b3cb; ;
+  padding-bottom: 3px ;
+  border-bottom: 2px solid #66b3cb;
+}
